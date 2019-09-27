@@ -1,6 +1,299 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
 version: v1.13.5
-ignore: {}
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-MIXINDEEP-450212:
+    - elixir-jsonschema-validator > update > base-generators > base-data > merge-value > mixin-deep:
+        reason: None given
+        expires: '2019-10-27T08:57:34.780Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > base-data > merge-value > mixin-deep:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+  SNYK-JS-SETVALUE-450213:
+    - elixir-jsonschema-validator > update > base-generators > base-data > merge-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > base-data > merge-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > data-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > data-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-option > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-option > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-generators > base-option > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > common-config > question-cache > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > gulp-choose-files > question-cache > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > data-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-store > data-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > common-config > data-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-store > data-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > common-config > data-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-cli-schema > map-schema > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-config-schema > map-schema > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > base-option > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-option > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > question-cache > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.781Z'
+    - elixir-jsonschema-validator > update > base-store > data-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > common-config > data-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-cli-schema > map-schema > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-config-schema > map-schema > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-pkg > pkg-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-generators > base-pkg > pkg-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-questions > base-store > data-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > data-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-pkg > pkg-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-generators > base-pkg > pkg-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-questions > base-store > data-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > data-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-config-schema > map-schema > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-item > base-option > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > common-config > question-cache > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-pkg > pkg-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-generators > base-pkg > pkg-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-questions > base-store > data-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > data-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-config-schema > map-schema > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.782Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-config-schema > base-pkg > pkg-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > common-config > data-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-item > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-config-schema > base-pkg > pkg-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > common-config > data-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-pkg > expand-pkg > normalize-pkg > map-schema > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-generators > base-pkg > expand-pkg > normalize-pkg > map-schema > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-view > vinyl-item > base-option > option-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-item > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-config-schema > base-pkg > pkg-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > common-config > data-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-pkg > expand-pkg > normalize-pkg > map-schema > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-generators > base-pkg > expand-pkg > normalize-pkg > map-schema > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-config-schema > base-pkg > pkg-store > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-view > vinyl-item > base > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-config-schema > base-pkg > pkg-store > cache-base > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-config-schema > base-pkg > expand-pkg > normalize-pkg > map-schema > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-view > vinyl-item > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-config-schema > base-pkg > pkg-store > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-config-schema > base-pkg > expand-pkg > normalize-pkg > map-schema > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.783Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-config-schema > base-pkg > expand-pkg > normalize-pkg > map-schema > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-config-schema > base-pkg > expand-pkg > normalize-pkg > map-schema > union-value > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > common-config > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-config-process > base-option > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-option > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-generators > base-option > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > common-config > question-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > gulp-choose-files > question-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > base-option > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > base-option > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > common-config > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > question-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-item > base-option > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-cli > base-argv > expand-args > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > common-config > question-cache > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-view > vinyl-item > base-option > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-cli > base-argv > expand-args > expand-object > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > template-error > engine > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > engine-base > engine > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > base-routes > template-error > engine > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > vinyl-view > engine-base > engine > set-value:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+  'npm:braces:20180219':
+    - elixir-jsonschema-validator > update > base-config-process > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > base-runtimes > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.784Z'
+    - elixir-jsonschema-validator > update > common-config > composer > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > base-cli-process > base-config-process > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > assemble-core > assemble-streams > match-file > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > match-file > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > assemble-core > base-task > composer > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > base-generators > base-task > composer > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > assemble-core > assemble-fs > vinyl-fs > glob-stream > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > get-view > match-file > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > base-questions > question-store > common-config > composer > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+    - elixir-jsonschema-validator > update > assemble-core > templates > layouts > get-view > match-file > micromatch > braces:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
+  'npm:mem:20180117':
+    - elixir-jsonschema-validator > yargs > os-locale > mem:
+        reason: None given
+        expires: '2019-10-27T08:57:34.785Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-LODASH-450202:
